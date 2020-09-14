@@ -10,7 +10,7 @@ class Perros extends Component {
     console.log(this.props.dogs)
     return (
       <div>
-        <h2>Perros en adopción:<br/>Probando</h2>
+        <h2>Perros en adopción:</h2>
         <ul>
           {this.props.dogs.map(dog => 
             <li>             
